@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/iv_logo_ipchile"
+        android:layout_width="match_parent"
+        android:layout_height="95dp"
+        app:srcCompat="@drawable/logo_ipchile" />
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Calculo de promedios"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_contenido"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplicación diseñada para el calculo de notas en IPCHILE"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_notas"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abrirNotas"
+        android:text="Calculo de notas (sin examen)" />
+
+    <Button
+        android:id="@+id/btn_examen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abrirExamen"
+        android:text="Calculo de nota examen" />
+
+    <Button
+        android:id="@+id/btn_eva"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abrirEva"
+        android:text="Calculo de EVA" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abrirPromedioFinal"
+        android:text="promedio (nota semestre + examen)" />
+
+    <Button
+        android:id="@+id/btn_informacion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="abrirInformación"
+        android:text="Información" />
+</LinearLayout>

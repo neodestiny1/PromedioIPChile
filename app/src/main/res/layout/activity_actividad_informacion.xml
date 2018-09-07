@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".actividadInformacion">
+
+    <TextView
+        android:id="@+id/tv_titulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="App Calculo de notas IPCHILE"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/tv_subtitulo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Aplicación diseñada para presentar EPR1 en Desarrollo Móvil 2"
+        android:textAlignment="center"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/tv_integrantes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Realizado por David Díaz"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="E-mail: david.diaz.cisternas@gmail.com"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/tv_docente"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Docente: German Riveros"
+        android:textAlignment="center"
+        android:textSize="18sp" />
+</LinearLayout>
